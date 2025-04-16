@@ -6,9 +6,7 @@
 ---
 
 ## 📘 **Course Overview**  
-COMPENG 4DQ5 covers the design, simulation, and implementation of digital systems using hardware description languages (HDLs).  
-The course includes topics such as logic synthesis, finite state machines, datapath and control design, and FPGA deployment.  
-Students gain hands-on experience building hardware systems using SystemVerilog and tools like Xilinx Vivado or ModelSim.
+COMPENG 4DQ5 covers the design, simulation, and implementation of digital systems using hardware description languages (HDLs). The course includes topics such as logic synthesis, finite state machines, datapath and control design, and FPGA deployment. Students gain hands-on experience building hardware systems using SystemVerilog and tools like Xilinx Vivado or ModelSim.
 
 ---
 
