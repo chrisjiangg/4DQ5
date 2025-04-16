@@ -36,19 +36,19 @@ Prepared for synthesis and implementation on an FPGA board.
 
 ---
 
-## 🧩 **Final Project – [Insert Project Title Here]**  
-*(Please replace this with your actual project title and description)*  
+## 🧩 **Final Project – Pipelined Processor with Instruction Decode and Register File**  
 
 **Overview:**  
-Designed and implemented a full digital system using SystemVerilog that integrates core concepts from labs,  
-including FSMs, datapaths, and I/O control. The final design was verified through simulation  
-and optionally deployed to an FPGA.
+Designed a pipelined processor in SystemVerilog that supports instruction decoding, register file operations, and basic ALU execution.  
+The processor follows a multi-stage pipeline to improve performance by overlapping instruction fetch, decode, execution, and write-back.  
+Key focus areas included proper handling of control signals, register reads/writes, and pipeline stage synchronization.
 
 **Key Features:**  
-- Custom control logic with finite state machines  
-- Arithmetic operations and memory/register interactions  
-- Simulation with ModelSim  
-- Modular and scalable SystemVerilog code  
+- 4-stage instruction pipeline (Fetch, Decode, Execute, Write-back)  
+- General-purpose register file  
+- Instruction decoder module supporting basic R-type and I-type formats  
+- Modular ALU with arithmetic operations  
+- Cycle-accurate simulation and waveform analysis in ModelSim
 
 ---
 
@@ -56,14 +56,14 @@ and optionally deployed to an FPGA.
 - **Languages:** SystemVerilog, Verilog, C  
 - **Simulation:** ModelSim  
 - **Synthesis/Implementation:** Xilinx Vivado  
-- **HDL Design:** FSMs, datapaths, control units  
-- **Platforms:** FPGA board (e.g., Nexys A7 if used)
+- **HDL Design:** FSMs, pipelined datapaths, control units  
+- **Platforms:** FPGA board (e.g., Nexys A7 if applicable)
 
 ---
 
 ## 📚 **Learning Outcomes**  
 - Designed digital circuits using SystemVerilog  
 - Simulated and debugged digital logic with timing diagrams  
-- Created state machines and arithmetic units  
-- Learned how to break down systems into datapath and control  
-- Applied digital design concepts in a final integrated project
+- Built a pipelined processor with modular instruction decoding  
+- Implemented register file and ALU components  
+- Gained insight into hardware pipeline hazards and control flow
