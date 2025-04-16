@@ -1,6 +1,6 @@
 # **COMPENG 4DQ5 – Digital Systems Design**  
 **McMaster University**  
-**Term:** Winter 2025  
+**Term:** Fall 2024  
 **Group:** 84  
 
 ---
